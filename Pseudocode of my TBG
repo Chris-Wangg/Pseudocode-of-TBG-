@@ -1,0 +1,23 @@
+print"...What does it mean, to be good, to be bad. You thought to yourself as you woke up in a field of nothingness, using your leftover energy, you stood up and looks around this lifeless abyss..."
+
+input"Press Enter to continue the prologue..."
+
+prin"Don't you remember? You once again fall onto the floor as you heard a voice. You are in The Purgatory. All souls are brought here when they leave their host. You gather your strength and speaks out."
+
+input"Why am I here?"
+
+print"It seems that you do not remember what happened, in that case, you should see for yourself. *Everything Flashes White*"
+
+print"Welcome to Lineage V, a text-based adventure story game made by Chris. There are a few choices for you to make which will change the storyline of the game. First of all..."
+
+def choose_your_side():
+    alignment = input"Would you consider yourself a hero, or a villain?"
+    if alignment == "hero":
+        print"nice"
+    elif alignment == "villain":
+        print"not nice"
+    else:
+        print"You blank out for a moment, as if time has rewinded..."
+        choose_your_side()
+    
+choose_your_side()
